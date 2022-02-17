@@ -1,0 +1,24 @@
+{
+  "name": "spotify-friend-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CORS proxy for spotify api",
+  "main": "proxy.js",
+  "scripts": {
+    "start": "node proxy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JChouCode/spotify-friend-proxy.git"
+  },
+  "author": "Jeffrey Chou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JChouCode/spotify-friend-proxy/issues"
+  },
+  "homepage": "https://github.com/JChouCode/spotify-friend-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "node-fetch": "^2.6.1"
+  }
+}
