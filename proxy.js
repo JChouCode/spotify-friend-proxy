@@ -8,7 +8,7 @@ app.use((req, res, next) => {
   next();
 });
 
-let spDcCookie = 'AQCgAtbxbFI8l4xV7FMGF7tSZe59B8Vs3IBhQt7utKxoS0PTbwBnVl3f0FLT8_LWkyLaoZSfNcAztOQGn8X48PNYo7Q3-ynDo98l5oaNXEdTZNvEO-Gqj_6B9yXZuPu0o5i5xRNt6XnNe0IOf-toN8mvCYqF_ZODf2v1dxS21S2N0M-oiLhT8Wmx-8P-lZFgmGhDSMKrGTYddlwTvB0yQCp_y3k4';
+let spDcCookie = process.env.SP_DC;
 
 app.get('/friends', async (req, res) => {
   try {
